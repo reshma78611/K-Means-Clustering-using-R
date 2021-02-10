@@ -22,16 +22,20 @@ In this repository we will discuss mainly about *K-Means Clustering*
   step 3: find distance from centroid to all datapoints in each part.\
   step 4: Move data point in to nearest centroid.\
   step 5: Recompute centroids.\
-  step 6: Repeat steps from 3 to 5 until there is no need to move data points from one cluster to other cluster.\
+  step 6: Repeat steps from 3 to 5 until there is no need to move data points from one cluster to other cluster.
   
   
   By using Elbow graph or screw plot we will decide proper K-value.
   
+  
   **Advantages:**
+  
   1. Partition of data accurately fast
   2. Suitable for larger datasets
   
+  
   **Diasadvantages:**
+  
   1. If we have outliers, it will give false clusters
 
 ## Data used:
